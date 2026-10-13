@@ -1,66 +1,66 @@
 {
-    "name": "saeedmohsenii/laravel-payammatni-sms",
-    "description": "Laravel package for sending SMS and checking credit / delivery status through the Payammatni (payammatni.com) SOAP SMS panel.",
-    "keywords": [
-        "laravel",
-        "sms",
-        "soap",
-        "payammatni",
-        "payammatni panel",
-        "iran",
-        "persian",
-        "پیامک",
-        "پیام متنی"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "homepage": "https://github.com/saeedmohsenii/laravel-payammatni-sms",
-    "authors": [
-        {
-            "name": "saeedmohsenii",
-            "homepage": "https://github.com/saeedmohsenii"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/saeedmohsenii/laravel-payammatni-sms/issues",
-        "source": "https://github.com/saeedmohsenii/laravel-payammatni-sms"
-    },
-    "require": {
-        "php": "^8.1",
-        "ext-soap": "*",
-        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
-        "psr/log": "^1.0|^2.0|^3.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
-        "phpunit/phpunit": "^10.0|^11.0|^12.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Payammatni\\Sms\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Payammatni\\Sms\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Payammatni\\Sms\\PayammatniSmsServiceProvider"
-            ],
-            "aliases": {
-                "PayammatniSms": "Payammatni\\Sms\\Facades\\PayammatniSms"
-            }
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  "name": "smpackbuilder/laravel-payammatni-sms",
+  "description": "Laravel package for sending SMS and checking credit / delivery status through the Payammatni (payammatni.com) SOAP SMS panel.",
+  "keywords": [
+    "laravel",
+    "sms",
+    "soap",
+    "payammatni",
+    "payammatni panel",
+    "iran",
+    "persian",
+    "پیامک",
+    "پیام متنی"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/smpackbuilder/laravel-payammatni-sms",
+  "authors": [
+    {
+      "name": "payammatni",
+      "homepage": "https://github.com/smpackbuilder"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/smpackbuilder/laravel-payammatni-sms/issues",
+    "source": "https://github.com/smpackbuilder/laravel-payammatni-sms"
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-soap": "*",
+    "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+    "psr/log": "^1.0|^2.0|^3.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0|^10.0|^11.0",
+    "phpunit/phpunit": "^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Payammatni\\Sms\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Payammatni\\Sms\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Payammatni\\Sms\\PayammatniSmsServiceProvider"
+      ],
+      "aliases": {
+        "PayammatniSms": "Payammatni\\Sms\\Facades\\PayammatniSms"
+      }
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
