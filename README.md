@@ -20,7 +20,7 @@
 ## نصب
 
 ```bash
-composer require saeedmohsenii/laravel-payammatni-sms
+composer require smpackbuilder/laravel-payammatni-sms
 ```
 
 پکیج به‌صورت خودکار شناسایی می‌شود و نیازی به ثبت دستی Service Provider نیست.
